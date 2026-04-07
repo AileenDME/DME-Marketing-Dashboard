@@ -1,14 +1,5 @@
 {
   "buildCommand": "npm run build",
   "installCommand": "npm install",
-  "outputDirectory": "build",
-  "functions": {
-    "api/**/*.js": {
-      "memory": 1024,
-      "maxDuration": 30
-    }
-  },
-  "env": [
-    "SHAREPOINT_FILE_URL"
-  ]
+  "outputDirectory": "build"
 }
